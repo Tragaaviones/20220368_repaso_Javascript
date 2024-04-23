@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.person-info {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.person-info h2 {
+    margin: 0;
+    color: #666;
+}
+
+.person-info p {
+    margin: 5px 0;
+}
+
+.person-info p:first-child {
+    margin-top: 10px;
+}                       
+
+.card img {
+    width: 25rem;
+    height: 15rem;
+}
+
+.contenedor-card {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 7rem;    
+}
+.card-messi{
+    width: 20rem;
+    height: 15rem;
+
+}
